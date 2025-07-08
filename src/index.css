@@ -2,7 +2,6 @@
   margin: 0;
   font-family: Arial, sans-serif;
   color: #666;
-  /* box-sizing: border-box; */
   overflow-x: hidden;
 }
 
@@ -198,7 +197,6 @@ button[type="submit"]:hover {
 
 /* The header banner */
 .header-banner {
-  /* background-image: url("../public/assets/images/hotel.webp"); */
   background-size: cover;
   background-position: center;
   position: relative;
@@ -576,7 +574,6 @@ button[type="submit"]:hover {
 }
 
 .detail-search-field {
-  /* flex: 0 0 calc(20.33% - 20px); */
   margin: 5px;
   padding: 12px;
   border: 1px solid #ddd;
