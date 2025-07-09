@@ -8,6 +8,9 @@ import FooterComponent from './componemt/common/Foother';
 import FindBookingPage from './componemt/booking_rooms/FindBookingPage';
 import RoomDetailsPage from './componemt/booking_rooms/RoomDetailsPage';
 import AllRoomPage from './componemt/booking_rooms/AllRoomPage';
+import LoginPage from './componemt/auth/LoginPage';
+import RegisterPage from './componemt/auth/RegisterPage';
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +22,10 @@ function App() {
             <Route exact path='/rooms' element={<AllRoomPage />} />
             <Route path='/roon-details-book/:roomId' element={<RoomDetailsPage />} />
             <Route path='/find-booking' element={<FindBookingPage />} />
+
+            <Route path='/login' element={<LoginPage />} />
+            <Route path='/register' element={<RegisterPage />} />
+
           </Routes>
         </div>
         <FooterComponent />
